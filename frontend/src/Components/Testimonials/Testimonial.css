@@ -1,0 +1,64 @@
+ 
+.testimonial{
+    text-align: center;
+}  
+
+  .testimonial-container {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+  }
+  .testimonial-card {
+    /* background: #f9f9f9; */
+    padding: 30px;
+    border-radius: 8px;
+    margin: 10px 0;
+    transition: opacity 0.5s ease-in-out; /* Smooth fade effect */
+  }
+  .buttons{
+    position: relative;
+    top: -100px;
+  }
+  
+  /* Navigation Arrows */
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .prev-btn { left: 0px; }
+  .next-btn { right: 0px; }
+  
+  /* Navigation Dots */
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .dot.active {
+    background: #147411;
+  }
+  

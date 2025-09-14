@@ -1,0 +1,17 @@
+.margin0{
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    background: #fff;
+}
+.margin0 h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.loginsignup-login span{
+    cursor: pointer;
+    color: #147411;
+}
+.loginsignup-login span:hover{
+text-decoration: underline;
+}

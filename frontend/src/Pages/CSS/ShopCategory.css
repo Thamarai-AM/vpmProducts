@@ -1,0 +1,116 @@
+.priceButton{    
+    margin: 0 auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+h5{
+    width: 100%;
+    text-align: left;
+}
+.priceButton.active {
+    text-decoration: underline;
+    color: #069102;
+}
+.priceButton:hover{
+    color: #069102;
+}
+.product-grid{
+    border: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+.product-container.grid-view {
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .product-container.list-view {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .shopNav{
+    margin-bottom: 20px;
+  }
+  .shopNavLeft{
+    display: flex;
+    gap: 10px;
+  }
+  .shopNavLeft button{
+    border: 1px solid #069102;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+  }
+  .shopNavRight{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .shopNavRight label{
+    display: flex;
+    gap: 10px;
+  }
+  .product-display-image{
+    max-width: 150px;
+    width: 100%;
+    max-height: 150px;
+    min-width: 150px;
+    height: 100%;
+    min-height: 150px;
+  }
+  h2{
+    text-transform: capitalize;
+  }
+.item-prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.item-price-new{
+    color: #069102;
+    font-size: 19px;
+    font-weight: 600;
+}
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.productDiv p{
+    margin: 0;
+}
+.product-container a{
+    text-decoration: none;
+    color: inherit;
+}
+.list-view .productDiv{
+  display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+.list-view .product-grid{
+ padding: 0;
+ margin: 20px;
+}
+.shopDetails{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 30px;
+  background: #fff;
+}
+.shopGrid{
+  background: #fff;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 0px 20px 0 0;
+}

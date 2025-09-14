@@ -1,0 +1,25 @@
+footer{
+    background: #e6f4e5;
+}
+.footer2{
+    text-align: center;
+}
+.footer2container {
+    padding: 17px 0;
+    margin: 20px auto;
+    border-top: 2px solid #069102;
+    border-bottom: 2px solid #069102;
+}
+.delam{
+    text-align: end;
+}
+footer ul{
+    list-style: none;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}

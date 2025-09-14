@@ -1,0 +1,39 @@
+.appbg{
+  background: #f1f3f6;
+}
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-button {
+  padding: 10px 15px;
+  border: none;
+  background: royalblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tooltip-text {visibility: hidden;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 17%;
+  left: 140%;
+  transform: translateX(-45%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+h2{
+  text-transform: uppercase !important;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+
+.listproduct-remove-icon{
+    width: 30px;
+    cursor: pointer;
+    margin: auto;
+}
+.listproduct-product-item{
+    max-width: 200px;
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+.checkout{
+    max-width: 800px;
+    width: 100%;
+    margin: 25px auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 2px 40px #ccc;
+    padding: 30px;
+}
+.tRight{
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+.form-check-input:checked {
+    background-color: #147411;
+    border-color: #147411;
+}
+.placeOrder{
+    text-align: center;
+}

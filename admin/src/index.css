@@ -1,0 +1,43 @@
+:root {
+  width: 100%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+h2{
+  font-family: Courier, monospace;
+  font-weight: 600;
+}
+.table th{
+  background-color: #8ce4b1;
+  padding: 15px 0;
+}
+.submit-button{
+  background-color: #8ce4b1;
+  border: 1px solid #8ce4b1;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+}
+
+.submit-button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .submit-button {
+    padding: 10px 30px;
+  }
+}

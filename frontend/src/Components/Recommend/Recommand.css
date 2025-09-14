@@ -1,0 +1,26 @@
+.homeGrid{
+    display: flex;
+    gap: 20px;
+    overflow-y: auto;
+}
+.homeCook{
+    width: 1000px;
+    margin: 0 auto;
+}
+.homeCook .productDiv{
+    width: 200px;
+}
+
+.homeCook h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.homeCook a{
+    color: #000;
+    text-decoration: none;
+}
+.homeCook p{
+    text-align: center;
+}

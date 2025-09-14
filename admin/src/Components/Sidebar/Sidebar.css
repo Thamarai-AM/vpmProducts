@@ -1,0 +1,22 @@
+
+
+.grid-hover img{width: 30px;
+    margin: 15px 5px;
+}
+a{    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: #f6f6f6;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #093417;
+    width: 100% !important;
+    max-width: 250px !important;
+}
+.grid-hover:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+    width: 250px;
+    border-radius: 10px;
+  }

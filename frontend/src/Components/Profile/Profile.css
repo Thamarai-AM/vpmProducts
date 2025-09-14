@@ -1,0 +1,67 @@
+/* .profileGrid {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px;
+    margin: 15px;
+} */
+.sideGrid{
+    margin-top: 30px;
+}
+.sideUL{
+    background-color: #fbfbfb;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    margin: 0;
+    padding: 0;
+}
+.sideUL li{
+    padding: 12px;
+    margin-bottom: 16px;
+    list-style: none;
+}
+.sideRow{
+    padding: 5px 0px 5px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sideH{
+    font-size: 16px;
+    padding: 0;
+    font-weight: bold;
+}
+.detailsUL{
+    padding: 0;
+    margin: 0;
+}
+.detailsUL li{
+    padding:6px 0;
+    margin: 0;
+}
+.sideULLI{
+    padding: 12px 0 20px 0;
+    margin-bottom: 16px;
+}
+.detailsUL button,.sideUL button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    padding: 0;
+}
+.sideULLeft{
+    background-color: #fbfbfb;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    margin: 0;
+    padding: 20px;
+}
+.sideULLeft .cartGrid{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 20px 10px;
+}
+.sideULLeft h1,.sideULLeft .total{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sideULLeft .cartDetailsList,.sideULLeft .cartDetails{gap:0}
